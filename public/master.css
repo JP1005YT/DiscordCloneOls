@@ -1,0 +1,15 @@
+:root{
+    --corPreto: #1e1f22;
+    --corPrincipal: #313338;
+    --corTextoCinza: #b5bac1;
+    --corTextoBranco: #f2f3f5;
+    --corBlue: #5865f2;
+    --corBlueHover: #4752c4;
+    --corLink: #00a7fa;
+    --corRed: #e7366b;
+    --corAzulFundo: #404eed;
+}
+@font-face {
+    font-family: 'GGSans';
+    src: url(./font/ggsans/gg.ttf);
+}

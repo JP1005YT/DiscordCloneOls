@@ -1,0 +1,61 @@
+@import url(../master.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'GGSans';  
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: var(--corAzulFundo);
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    background: var(--corRed);
+    color: white;
+    padding: 10px;
+    *{
+        margin: 10px;
+    }
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column  ;
+    width: 900px;
+    height: 500px;
+    color: #fff;
+    h1{
+        text-align: center;
+        font-size: 3rem;
+    }
+    p{
+        width:80%;
+        padding: 20px;
+        text-align: center;
+    }
+    button{
+        transition: 200ms;
+        background: #23272a;
+        color: #fff;
+        padding: 20px;
+        border: none;
+        font-weight: 500;
+        font-size: 1.2rem;
+        border-radius: 70px;
+        cursor: pointer;
+        &:hover{
+            background:#313338;
+        }
+    }
+}
